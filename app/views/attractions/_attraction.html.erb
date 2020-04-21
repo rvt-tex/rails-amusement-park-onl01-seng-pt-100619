@@ -1,0 +1,13 @@
+<tr>
+    <%= td do %>
+        <%= attraction.name %>
+    <% end %>
+
+    <%= td do %>
+        <%= attraction.tickets %>
+    <% end %>
+
+    <%= td do %>
+        <%= link_to attraction_link_text(attraction), attraction %>
+    <% end %>
+</tr>
